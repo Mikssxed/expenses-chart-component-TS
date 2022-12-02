@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="styles.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Expenses chart component</title>
+</head>
+<body>
+  <main>
+    <header>
+      <div id="balance">
+        <p>My balance</p>
+        <h1>$921.48</h1>
+      </div>
+      <img src="./images/logo.svg" alt="logo"> 
+    </header>
+    <div id="content">
+      <h2>Spending - Last 7 days</h2>
+      <div id="chart">
+        <div class="whole">
+          <div class="amount"></div><div class="column"></div><p>mon</p>
+        </div>
+        <div class="whole">
+          <div class="amount"></div><div class="column"></div><p>tue</p>
+        </div>
+        <div class="whole">
+          <div class="amount"></div><div class="column"></div><p>wed</p>
+        </div>
+        <div class="whole">
+          <div class="amount"></div><div class="column"></div><p>thu</p>
+        </div>
+        <div class="whole">
+          <div class="amount"></div><div class="column"></div><p>fri</p>
+        </div>
+        <div class="whole">
+          <div class="amount"></div><div class="column"></div><p>sat</p>
+        </div>
+        <div class="whole">
+          <div class="amount"></div><div class="column"></div><p>sun</p>
+        </div>
+      </div>
+      <footer>
+        <div id="left">
+          <p>Total this month</p>
+          <h3>$478.33</h3>
+        </div>
+        <div id="right">
+          <h4>+2.4%</h4>
+          <p>from last month</p>
+        </div>
+      </footer>
+    </div>
+  </main>
+  <script>var exports = {};</script>
+  <script type="module" src="./dist/app.js"></script>
+</body>
+</html>
